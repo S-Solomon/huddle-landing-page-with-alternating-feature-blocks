@@ -1,0 +1,76 @@
+.home-section {
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+    
+        &__logo {
+            width: 100px;
+        }
+    
+        &__button {
+            padding: 8px 30px;
+            background-color:  white;
+            border: none;
+            outline: none;
+            color: black;
+            border-radius: 50px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    
+        }
+    }
+}
+
+.home-section {
+    position: relative;
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+        .home-section__h2 {
+            margin: 20px 0;
+            font-size: 24px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        .home-section__p {
+            letter-spacing: 1px;
+            font-weight: 400;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+        .cta-button {
+            margin: 50px 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        .hero-image {
+            height: 200px;
+            width: 300px;
+        }
+    }
+}

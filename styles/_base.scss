@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 100px;
+
+
+    @media screen and(max-width: 375px) {
+        padding: 25px;
+    }
+}
+
+.cta-button {
+    background-color:  hsl(322, 100%, 66%);
+    border: none;
+    color:white;
+    padding: 13px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    // width: 50%;
+}
