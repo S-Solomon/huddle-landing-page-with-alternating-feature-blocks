@@ -1,6 +1,41 @@
 .footer {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
-    // background-color: pink;
     background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    // flex-direction: column;
+    // justify-content: space-between;
+
+    &__contact {
+        margin-top: 100px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        &__logo {
+            filter: invert(3);
+            width: 50vw;
+        }
+        &__icons {
+            width: 20px;
+            height: 20px;
+            span {
+                display: inline-block;
+            }
+        }
+    }
+
+    &__links {
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 80%;
+            list-style: none;
+            margin: 100px 0 50px 20px;
+        }
+    }
 }

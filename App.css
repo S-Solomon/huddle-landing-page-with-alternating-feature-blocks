@@ -64,6 +64,8 @@ section {
 .card button {
   margin: 30px 0;
   padding: 10px 30px;
+  cursor: pointer;
+  font-size: 10px;
 }
 
 .home-section .header {
@@ -96,6 +98,7 @@ section {
   font-weight: 700;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .home-section {
@@ -352,8 +355,59 @@ section {
 }
 
 .footer {
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   background-color: #00252e;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40% 40% 20%;
+      grid-template-rows: 40% 40% 20%;
+}
+
+.footer__contact {
+  margin-top: 100px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.footer__contact__logo {
+  -webkit-filter: invert(3);
+          filter: invert(3);
+  width: 50vw;
+}
+
+.footer__contact__icons {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__contact__icons span {
+  display: inline-block;
+}
+
+.footer__links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 80%;
+  list-style: none;
+  margin: 100px 0 50px 20px;
 }
 /*# sourceMappingURL=App.css.map */
