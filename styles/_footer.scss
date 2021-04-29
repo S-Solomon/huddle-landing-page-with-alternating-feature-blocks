@@ -1,5 +1,5 @@
 .footer {
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     background-color: hsl(192, 100%, 9%);
     color: white;
@@ -13,18 +13,16 @@
         margin-left: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
+        justify-content: space-around;
+        height: 65%;
         &__logo {
-            filter: invert(3);
+            filter: brightness(0%) invert(1);
             width: 50vw;
         }
         &__icons {
             width: 20px;
             height: 20px;
-            span {
-                display: inline-block;
-            }
+
         }
     }
 
@@ -33,9 +31,33 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            height: 80%;
+            height: 60%;
             list-style: none;
-            margin: 100px 0 50px 20px;
+            margin: 20px 0 0 20px;
         }
+    }
+}
+
+
+.footer__phone {
+    display: flex;
+    p {
+        margin-left: 30px;
+    }
+}
+
+.footer__location{
+    display: flex;
+    p {
+        margin-left: 30px;
+        width: 80vw;
+    }
+    
+}
+
+.footer__email {
+    display: flex;
+    p {
+        margin-left: 30px;
     }
 }
