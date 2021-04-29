@@ -1,17 +1,35 @@
-.home-section {
+
     .header {
-        width: 100%;
+        position: relative;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 0px;
+        width: 100%;
+        padding: 20px 10px;
+        @media screen and(min-width: 1440px) {
+            margin: 10px 20px;
+        }
+        
+        .logo-container {
+            justify-content: start;
+            align-self: center;
+            width: 50%;
+        }
+        .button-container {
+            justify-content: flex-end;
+            width: 50%;
+        }
+ 
+
     
         &__logo {
-            width: 100px;
+            width: 50%;
+            @media screen and(min-width: 1440px){
+                width: 30%;
+                padding-left: 10px;
+            }
         }
     
         &__button {
-            padding: 8px 30px;
+            padding: 8px 15px;
             background-color:  white;
             border: none;
             outline: none;
@@ -22,27 +40,44 @@
             font-weight: 700;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             cursor: pointer;
+            margin-left: 20vw;
+            @media screen and(min-width: 1440px) {
+                padding: 10px 30px;
+                font-size: 18px;
+                margin-left: 32vw;
+            }
+            
         }
     }
-}
+
 
 .home-section {
     position: relative;
     background-image: url(../images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    // background-attachment: fixed;
     background-position: center top;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media screen and(min-width: 1440px) {
+        background-image: url(../images/bg-hero-desktop.svg);
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
     &__left {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 40px;
+        @media screen and(min-width: 1440px) {
+            width: 45%;
+            align-items: flex-start;
+        }
+        
 
         .home-section__h2 {
             margin: 20px 0;
@@ -57,6 +92,9 @@
             text-align: center;
             font-family: 'Open Sans', sans-serif;
             opacity: 0.8;
+            @media screen and(min-width: 1440px){
+                text-align: start;
+            }
 
         }
         .cta-button {
@@ -69,9 +107,17 @@
     &__right {
         display: flex;
         align-items: center;
+        @media screen and(min-width: 1440px) {
+            width: 55%;
+        }
         .hero-image {
             height: 200px;
             width: 300px;
+            @media screen and(min-width: 1440px) {
+                align-self: center;
+                width: 100%;
+                height: 80%;
+            }
         }
     }
 }
