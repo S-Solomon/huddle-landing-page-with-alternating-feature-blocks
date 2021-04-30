@@ -14,7 +14,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-ZHUEU48dm)
+- Live Site URL: [Add live site URL here](https://huddle-with-alternating-features-block.netlify.app)
 
 ## My process
 
