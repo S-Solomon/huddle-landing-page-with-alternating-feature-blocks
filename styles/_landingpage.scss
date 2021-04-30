@@ -85,6 +85,9 @@
             text-align: center;
             font-family: 'Poppins', sans-serif;
             font-weight: 600;
+            @media screen and (min-width: 1440px) {
+              text-align: left;
+            }
         }
         .home-section__p {
             letter-spacing: 1px;
