@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-ZHUEU48dm)
-- Live Site URL: [Add live site URL here](https://huddle-with-alternating-features-block.netlify.app)
+- Solution URL: [Click Me!](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-ZHUEU48dm)
+- Live Site URL: [Click Me!](https://huddle-with-alternating-features-block.netlify.app)
 
 ## My process
 
