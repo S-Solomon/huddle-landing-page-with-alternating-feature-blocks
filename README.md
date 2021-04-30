@@ -57,28 +57,19 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 .logo {
   filter: brightness(0%) invert(1);
 }
-ul li:not(:last-child) {
-  margin-right: 10px;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+.social-links i:not(:last-child) {
+  margin-right: 10px;
+
+ul:nth-last-child(-n+6) {
+  float: right;
+  padding-bottom: 20px;
+}
+```
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
